@@ -15,7 +15,7 @@ export default function Sidebar() {
     return (
         <aside className="w-60 bg-white border-r border-[var(--color-border)] h-screen fixed left-0 top-0 flex flex-col">
             <div className="p-6 border-b border-[var(--color-border)]">
-                <h1 className="text-xl font-bold text-[var(--color-primary)]">FinanceFlow</h1>
+                <h1 className="text-xl font-bold text-[var(--color-primary)]">Financy</h1>
             </div>
             
             <nav className="flex-1 p-4 space-y-1">

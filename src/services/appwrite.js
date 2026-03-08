@@ -14,4 +14,11 @@ export const APPWRITE_CONFIG = {
     usersCollectionId: import.meta.env.VITE_APPWRITE_USERS_COLLECTION_ID,
 };
 
+console.log('Appwrite Config:', {
+    endpoint: import.meta.env.VITE_APPWRITE_ENDPOINT,
+    projectId: import.meta.env.VITE_APPWRITE_PROJECT_ID,
+    databaseId: import.meta.env.VITE_APPWRITE_DATABASE_ID,
+    transactionsId: import.meta.env.VITE_APPWRITE_TRANSACTIONS_COLLECTION_ID,
+});
+
 export default client;
